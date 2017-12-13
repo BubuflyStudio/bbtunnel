@@ -8,7 +8,7 @@
 const packageConfig = {
     // 基础配置说明
     name: 'bbtunnel',
-    version: '0.0.1',
+    version: '0.0.2',
     description: 'exposes your localhost to the world',
     homepage: 'https://github.com/BubuflyStudio/bbtunnel',
     license: 'MIT',
