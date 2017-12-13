@@ -54,7 +54,7 @@ module.exports = {
 
 ## 原理说明
 如图：
-
+![desc.png](https://raw.githubusercontent.com/BubuflyStudio/bbtunnel/master/desc.png)
 
 1. `bbt-client` 会主动通过 `socksv5` 的方式与公网的 `bbt-server` 建立连接通道  
 2. 当 `bbt-server` 收到相应的 `http` 请求时，它会将该 `http` 请求通过建立的 `socksv5` 通
