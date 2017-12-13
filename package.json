@@ -1,0 +1,31 @@
+{
+  "name": "bbtunnel",
+  "version": "0.0.1",
+  "description": "exposes your localhost to the world",
+  "homepage": "https://github.com/BubuflyStudio/bbtunnel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BubuflyStudio/bbtunnel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BubuflyStudio/bbtunnel/issues"
+  },
+  "bin": {
+    "bbt-server": "./bin/server.js",
+    "bbt-client": "./bin/client.js"
+  },
+  "keywords": [
+    "bbtunnel",
+    "tunnel",
+    "socksv5",
+    "bb",
+    "socket"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "liftoff": "^2.3.0",
+    "minimist": "^1.2.0",
+    "socksv5": "https://github.com/wujohns/socksv5.git"
+  }
+}
