@@ -1,6 +1,6 @@
 {
   "name": "bbtunnel",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "exposes your localhost to the world",
   "homepage": "https://github.com/BubuflyStudio/bbtunnel",
   "license": "MIT",

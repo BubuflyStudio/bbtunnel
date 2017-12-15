@@ -85,12 +85,15 @@ class Client extends EventEmitter {
                 errCode === 'ECONNREFUSED' ||
                 errCode === 'ECONNRESET'
             ) {
+                // 连接失败则延时重启该 client
                 console.log('socksv5 服务连接失败');
                 setTimeout(() => {
                     this.emit('close', domain, client);
                 }, 3000);
+            } else {
+                // 其他错误则直接重启该 client
+                this.emit('close', domain, client);
             }
-            this.emit('close', domain, client);
         });
 
         client.on('connect', (socket) => {

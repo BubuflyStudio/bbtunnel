@@ -23,7 +23,7 @@ module.exports = {
 };
 ```
 
-启动后即会启动监听 `80` 端口的 `http` 服务，以监听 `8000` 端口的 `socksv5` 连接。
+启动后即会启动监听 `80` 端口的 `http` 服务，与监听 `8000` 端口的 `socksv5` 连接。
 
 ### 客户端
 客户端在为本地安装（本地执行 `npm install -g bbtunnel` 安装 `bbtunnel`）
